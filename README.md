@@ -347,7 +347,7 @@ class Department:
         """
 
         CURSOR.execute(sql, (self.name, self.location))
-        CONN.commit()
+        # CONN.commit()
 
         self.id = CURSOR.lastrowid
 ```
