@@ -287,9 +287,9 @@ ipdb>
 
 ## `find_by_id()`
 
-| Method               | Return                              | Description                                                                                                                             |
-| -------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| find_by_id(cls, id)) | object that is an instance of `cls` | Return an object that is an instance of the class, assigning the attribute values using the table row specified by the primary key `id` |
+| Method              | Return                              | Description                                                                                                                             |
+| ------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| find_by_id(cls, id) | object that is an instance of `cls` | Return an object that is an instance of the class, assigning the attribute values using the table row specified by the primary key `id` |
 
 This one is similar to `get_all()`, with the small exception being that we have
 a `WHERE` clause to test the `id` in our SQL statement. To do this, we use a
